@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send('My Library!');
+    res.send('My Library');
 });
 
 const bookRouter = require('./routes/book_routes');
